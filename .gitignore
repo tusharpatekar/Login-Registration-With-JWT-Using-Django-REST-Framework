@@ -1,0 +1,77 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environment variables
+.env
+*.env
+
+# Django migrations
+**/migrations/
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Django cache
+**/cache/
+**/cache/*
+
+# Static files (collected)
+staticfiles/
+static/
+
+# Media files (user uploads)
+media/
+
+# Virtual environments
+env/
+
+
+
+venv/
+ENV/
+*.virtualenv/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Test coverage
+.coverage
+*.cover
+.coverage.*
+htmlcov/
+
+# Pytest and test logs
+.cache/
+pytestdebug.log
+
+# MyPy
+.mypy_cache/
+
+# Pylint and other linters
+.pylint.d/
+pylint.log
+
+# Logs and database
+*.log
+*.sqlite3
+db.sqlite3
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Others
+*.bak
+*.orig
+*.rej
+*.seed
+*.log~
